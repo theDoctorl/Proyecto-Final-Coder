@@ -1,0 +1,7 @@
+.Articulos {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px; }
+  .Articulos div {
+    margin-left: 15px;
+    margin-bottom: 10px; }
