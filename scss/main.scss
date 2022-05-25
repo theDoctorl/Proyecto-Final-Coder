@@ -32,3 +32,41 @@
 h1{
     text-align: center;
 }
+
+@media screen and (min-width: 425px) {
+    .Articulos{
+
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+        
+        div{
+            margin-left: 15px;
+            margin-bottom: 10px;
+        }
+        img {
+            height: 100%;
+            width: 80%;
+        }
+    
+}
+
+.placas{
+    img{
+        height: 150px;
+        width: 200px;
+    }
+}
+
+.notebook{
+        img{
+            height: 150px;
+            width: 200px;
+        }
+}
+
+h1{
+    text-align: center;
+}
+
+}
