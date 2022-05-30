@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <title>Document</title>
+
+    <link rel="stylesheet" href="../css/main.css">
+    <title>TecnoLive</title>
 </head>
 <body>
     <header>
@@ -14,7 +16,7 @@
 
     <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Home</a>
+          <a class="navbar-brand" href="../index.html">Home</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -25,9 +27,10 @@
                   Catalogo
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a class="dropdown-item" href="notebook.html">Notebooks</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><a class="dropdown-item" href="../pages/celulares.html">Celulares</a></li>
+                  <li><a class="dropdown-item" href="../pages/notebook.html">Notebooks</a></li>
+                  <li><a class="dropdown-item" href="../pages/componentes.html">Componentes PC</a></li>
+                  <li><a class="dropdown-item" href="../pages/monitoresyacces.html">Monitores y accesorios</a></li>
                 </ul>
               </li>
   
@@ -39,7 +42,52 @@
         </div>
       </nav>
     
+      <main class="contact-main">
 
+        <div class="card" style="width: 18rem; margin-left: 15px;">
+          <h5>Bienvenidos</h5>
+          <span> Aqui encontraras informacion sobre nuestra organizacion y ademas una guia detallada sobre como comprar.</span>
+          <div class="card-body">
+            <h5 class="card-title">TecnoLive</h5>
+            <p class="card-text">Para comprar te dejamos el siguiente enlace a un chat de Whatsapp con nuestro Community manager. Contactate con el para realizar tu pedido, y recibir mas información.</p>
+            <a href="https://wa.me/qr/Z2256JPP7WJ6F1" target="_blank" class="btn btn-primary">Whatsapp con Damian</a>
+          </div>
+        </div>
+
+        <section>
+            <h3>¿Donde nos encontramos?</h3>
+              <p>¡Facil! Segundo piso del Abasto Shopping.</p>
+              <div class="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.0402276475347!2d-58.413029684236726!3d-34.60314426497591!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca8c854bd13f%3A0xfc0cf5c054da4aa1!2sAbasto%20Shopping!5e0!3m2!1ses-419!2sar!4v1653932297286!5m2!1ses-419!2sar" width="320" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+        </section>
+      </main>
+
+      <footer>
+          <section>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Email</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
+            </div>
+            <select class="form-select" aria-label="Default select example">
+              <option selected>Atención al cliente</option>
+              <option value="1">Compra mayorista</option>
+              <option value="2">Abri tu sucursal de TecnoLive</option>
+              <option value="3">RRHH</option>
+            </select>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Consulta</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+              <label class="form-check-label" for="flexCheckDefault">
+                Suscribirse al NewsLetter.
+              </label>
+            </div>
+            <input class="btn btn-primary" type="submit" value="Enviar">
+          </section>
+      </footer>
 
 
 

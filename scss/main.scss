@@ -32,6 +32,16 @@
 h1{
     text-align: center;
 }
+.redes-sociales{
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
 @media screen and (min-width: 425px) {
     .Articulos{
@@ -65,8 +75,29 @@ h1{
         }
 }
 
-h1{
-    text-align: center;
 }
+
+@media screen and (min-width: 768px) {
+    
+    .Articulos{
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 15px;
+        
+        div{
+            margin-left: 15px;
+            margin-bottom: 10px;
+        }
+        img {
+            height: 100%;
+            width: 80%;
+        }
+    
+}
+
+
+
 
 }

@@ -20,6 +20,15 @@
 h1 {
   text-align: center; }
 
+.redes-sociales {
+  display: flex;
+  flex-direction: row; }
+
+.contact-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+
 @media screen and (min-width: 425px) {
   .Articulos {
     display: flex;
@@ -36,6 +45,17 @@ h1 {
     width: 200px; }
   .notebook img {
     height: 150px;
-    width: 200px; }
-  h1 {
-    text-align: center; } }
+    width: 200px; } }
+
+@media screen and (min-width: 768px) {
+  .Articulos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 15px; }
+    .Articulos div {
+      margin-left: 15px;
+      margin-bottom: 10px; }
+    .Articulos img {
+      height: 100%;
+      width: 80%; } }
