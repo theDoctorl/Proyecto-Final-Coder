@@ -1,0 +1,137 @@
+body{
+    background-color: #efefef;
+}
+
+.Articulos{
+        
+        .card{
+            margin-left: 15px;
+            margin-bottom: 15px;
+            
+        }
+       img{
+            height: 90%;
+            width: 80%;
+        } 
+}
+
+@media screen and (min-width: 375px) {
+    
+    .Articulos{
+        
+        .card{
+            margin-left: 50px;
+            margin-bottom: 20px;
+            
+        }
+       img{
+            height: 100%;
+            width: 80%;
+            
+        } 
+        .carrusel{
+            height: 230px;
+            width: 280px;
+        }
+}
+
+
+}
+
+@media screen and (min-width: 750px) {
+
+    .Articulos{
+
+         @include contenedor-grid;
+
+        .card{
+            margin-left: 50px;
+            margin-bottom: 20px;
+            
+        }
+       img{
+            height: 100%;
+            width: 80%;
+            
+        } 
+        .carrusel{
+            height: 230px;
+            width: 280px;
+        }
+    }
+}
+
+
+@media screen and (min-width: 1400px) {
+
+    .Articulos{
+
+        @include contenedor-grid;
+        grid-template-columns: 1fr 1fr 1fr;
+
+       .card{
+           margin-left: 50px;
+           margin-bottom: 20px;
+           
+       }
+      img{
+           height: 100%;
+           width: 80%;
+           
+       } 
+       .carrusel{
+           height: 230px;
+           width: 280px;
+       }
+   }
+
+   .contenedor-index{
+    
+            .col{
+                @include contenedor-flex;
+                justify-content:center;
+            }
+   }
+
+   .alertas{
+    @include contenedor-flex;
+    justify-content: space-around;
+    
+}
+
+
+
+}
+
+
+@media screen and (min-width: 1900px) {
+
+    .Articulos{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 100px;
+
+       .card{
+           margin-left: 50px;
+           margin-bottom: 20px;
+           
+       }
+      img{
+           height: 100%;
+           width: 80%;
+           
+       } 
+       .carrusel{
+           height: 230px;
+           width: 280px;
+       }
+       .no-carrusel{
+           height: auto;
+           width: auto;
+       }
+   }
+
+
+
+
+}

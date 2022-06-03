@@ -1,0 +1,44 @@
+.redes-sociales{
+    h3{
+        text-align: center;
+        font-weight: map-get($font-weights, "regular");
+        font-family: 'Times New Roman', Times, serif;
+    }
+    ul{
+        @include contenedor-flex;
+        justify-content: space-around;
+    }
+    li{
+        list-style-type: none;
+    }
+}
+
+.suscribete{
+    h5{
+        text-align: center;
+        font-weight: map-get($font-weights, "regular");
+        font-family: 'Times New Roman', Times, serif;
+    }
+    button{
+        margin-left: 40%;
+    }
+    .Enviar{
+        margin-left: 40%;
+    }
+}
+
+
+@media screen and (min-width: 1400px) {
+
+
+        .index-footer{
+                @include contenedor-flex;
+                justify-content: space-around;
+
+        }
+
+        
+
+
+
+}
