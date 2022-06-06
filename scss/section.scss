@@ -59,8 +59,26 @@ body{
             width: 280px;
         }
     }
+    .contact-main{
+        .compras{
+            text-align: center;
+            margin: 20px;
+        }
+        
+    }
+    .ubicacion{
+        text-align: center;
+        font-weight: map-get($font-weights, "medium");
+        font-family: 'Times New Roman', Times, serif;
+   .mapa{
+       iframe{
+        width: 600px;
+        height: 300px;
+       }
+       
+   }
 }
-
+}
 
 @media screen and (min-width: 1400px) {
 
@@ -90,6 +108,10 @@ body{
             .col{
                 @include contenedor-flex;
                 justify-content:center;
+                transition: 0.5s;
+            }
+            .col:hover{
+                transform: scale(1.03)
             }
    }
 
@@ -98,7 +120,25 @@ body{
     justify-content: space-around;
     
 }
-
+.contact-main{
+    .compras{
+        text-align: center;
+        margin: 20px;
+    }
+    
+}
+.ubicacion{
+    text-align: center;
+    font-weight: map-get($font-weights, "medium");
+    font-family: 'Times New Roman', Times, serif;
+.mapa{
+   iframe{
+    width: 1300px;
+    height: 500px;
+   }
+   
+}
+}
 
 
 }
@@ -109,7 +149,7 @@ body{
     .Articulos{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-gap: 100px;
+        grid-gap: 200px;
 
        .card{
            margin-left: 50px;
@@ -128,14 +168,20 @@ body{
     }
         
     .contenedor-index{
-    
         .col{
             margin: 20px;
+            transition: 0.5s;
+        }
+        .col:hover{
+            transform: scale(1.03)
         }
 }
 .alertas{
     @include contenedor-flex;
     justify-content: space-evenly;
+    text-align: center;
+    font-weight: map-get($font-weights, "medium");
+    font-family: 'Times New Roman', Times, serif;
     
     
 }
@@ -149,11 +195,80 @@ body{
     }
 
     .ubicacion{
-        text-align: center;
+            text-align: center;
+            font-weight: map-get($font-weights, "medium");
+            font-family: 'Times New Roman', Times, serif;
        .mapa{
            iframe{
             width: 1800px;
-            height: 500px;
+            height: 600px;
+           }
+           
+       } 
+    }
+}
+
+
+
+
+@media screen and (min-width: 2400px) {
+
+    .Articulos{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 500px;
+
+       .card{
+           margin-left: 50px;
+           margin-bottom: 20px;
+           
+       } 
+       .carrusel{
+           height: 230px;
+           width: 280px;
+       }
+       .no-carrusel{
+           height: auto;
+           width: auto;
+            
+        }
+    }
+        
+    .contenedor-index{
+        .col{
+            margin: 20px;
+            transition: 0.5s;
+        }
+        .col:hover{
+            transform: scale(1.03)
+        }
+}
+.alertas{
+    @include contenedor-flex;
+    justify-content: space-around;
+    text-align: center;
+    font-weight: map-get($font-weights, "medium");
+    font-family: 'Times New Roman', Times, serif;
+    
+    
+}
+
+    .contact-main{
+        .compras{
+            text-align: center;
+            margin: 20px;
+        }
+        
+    }
+
+    .ubicacion{
+            text-align: center;
+            font-weight: map-get($font-weights, "medium");
+            font-family: 'Times New Roman', Times, serif;
+       .mapa{
+           iframe{
+            width: 2400px;
+            height: 1000px;
            }
            
        } 
