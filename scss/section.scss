@@ -115,11 +115,6 @@ body{
            margin-left: 50px;
            margin-bottom: 20px;
            
-       }
-      img{
-           height: 100%;
-           width: 80%;
-           
        } 
        .carrusel{
            height: 230px;
@@ -128,10 +123,39 @@ body{
        .no-carrusel{
            height: auto;
            width: auto;
-       }
-   }
+            
+        }
+    }
+        
+    .contenedor-index{
+    
+        .col{
+            margin: 20px;
+        }
+}
+.alertas{
+    @include contenedor-flex;
+    justify-content: space-evenly;
+    
+    
+}
 
+    .contact-main{
+        .compras{
+            text-align: center;
+            margin: 20px;
+        }
+        
+    }
 
-
-
+    .ubicacion{
+        text-align: center;
+       .mapa{
+           iframe{
+            width: 1800px;
+            height: 500px;
+           }
+           
+       } 
+    }
 }

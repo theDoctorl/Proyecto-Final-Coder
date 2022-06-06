@@ -72,15 +72,26 @@ body {
     .Articulos .card {
       margin-left: 50px;
       margin-bottom: 20px; }
-    .Articulos img {
-      height: 100%;
-      width: 80%; }
     .Articulos .carrusel {
       height: 230px;
       width: 280px; }
     .Articulos .no-carrusel {
       height: auto;
-      width: auto; } }
+      width: auto; }
+  .contenedor-index .col {
+    margin: 20px; }
+  .alertas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; }
+  .contact-main .compras {
+    text-align: center;
+    margin: 20px; }
+  .ubicacion {
+    text-align: center; }
+    .ubicacion .mapa iframe {
+      width: 1800px;
+      height: 500px; } }
 
 .redes-sociales h3 {
   text-align: center;
@@ -111,3 +122,13 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around; } }
+
+@media screen and (min-width: 1900px) {
+  .suscribete h5 {
+    text-align: center;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif; }
+  .suscribete button {
+    margin-left: 48%; }
+  .suscribete .Enviar {
+    margin-left: 48%; } }
